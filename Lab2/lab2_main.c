@@ -18,6 +18,6 @@ int main(int argc, char const *argv[])
     new_string = remove_substring(s1);
     printf("remove_substring expected: %s\n", "This is a string with a  delimiter.");
     printf("remove_substring actual:   %s\n", new_string);
-
+    
     return 0;
 }
